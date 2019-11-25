@@ -24,7 +24,6 @@ body{
 /**
  * Checkbox ============================================================================================================
  */
-
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
 	border-color: #19b776;
   	background-color:#19b776;

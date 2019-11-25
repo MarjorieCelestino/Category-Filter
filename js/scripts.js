@@ -60,7 +60,6 @@ const checkTheParent = (element, isChecked) =>{
 
 // updates node state
 const updateParentNode = (status, node) => {
-
 	switch(status){
 		case 'yes':
 			node.indeterminate = false;

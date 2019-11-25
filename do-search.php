@@ -11,7 +11,7 @@ function searchResponse($array, $search){
 	echo $response;
 }
 
-//Execute search and returns id's of elements in case they match
+//execute search and returns id's of elements in case they match
 function doSearch($array, $search){
 	global $searchArray;
 	$search = strtolower($search);
@@ -24,7 +24,6 @@ function doSearch($array, $search){
 			doSearch($value, $search);
 		}else{
 			$compare = strtolower($value);
-			//find the first occurrence of the value on search
 			if(stristr($compare,$search)){
 				array_push($searchArray, $key);				
 			}

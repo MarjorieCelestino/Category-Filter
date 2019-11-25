@@ -16,13 +16,6 @@
 	    'Seasons' => array (
 	    	'2.4.1' => 'Test',
 	    	'2.4.2' => 'Two Seasons',
-	    	'Three' => array (
-	    		'one',
-	    		'test',
-	    		'yes' => array (
-	    			'test'
-	    		)
-	    	)
 	    )
 	  ), 
 	  'Directors' => array (
@@ -36,6 +29,7 @@
 //print multidimentional array in nested treeview
 $aux = false; //avoid printing first ul because of bootstrap classes
 $id = 0; //id of li has to match the for in label
+
 function recursivePrint($array){
 	global $aux;
 	global $id;
