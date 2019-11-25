@@ -1,0 +1,66 @@
+html{
+	background-color: #F2F4F4;
+}
+
+main{
+	margin-top: 2%;
+	background-color: #F2F4F4;
+	color: #515151;
+}
+
+body{
+	/* use of !important to override boostrap default css */
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+
+/**
+ * Search ============================================================================================================
+ */
+.search-input{
+	outline: 0;
+}
+
+/**
+ * Checkbox ============================================================================================================
+ */
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+	border-color: #19b776;
+  	background-color:#19b776;
+}
+
+.custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before{
+	border-color: #F2F4F4;
+  	background-color:#F2F4F4;
+}
+
+.custom-checkbox .custom-control-input:disabled:indeterminate~.custom-control-label::before{
+	border-color: #F2F4F4;
+  	background-color:#F2F4F4;
+}
+
+.custom-checkbox .custom-control-input:disabled:checked~.custom-control-label::before{
+	border-color: #19b776;
+  	background-color:#19b776;
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+/**
+ * Cancel and Apply buttons ============================================================================================================
+ */
+.btn-apply, .btn-back{
+	text-transform: uppercase;
+	/* use of !important to override boostrap default css */
+	font-weight: 600 !important;
+	letter-spacing: 1px;
+	/* use of !important to override boostrap default css */
+	font-size: 14px !important;
+}
