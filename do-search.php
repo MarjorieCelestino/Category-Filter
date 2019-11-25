@@ -1,7 +1,7 @@
 <?php
 include('categories-config.php');
 
-// get the q parameter from URL
+// get the search parameter from URL
 $searchTxt = $_REQUEST["search"];
 
 $searchArray = array();
